@@ -29,6 +29,13 @@ body.green {
   --bg: url("./assets/bg-green.svg");
 }
 
+header p {
+  color: #e1e1e6;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 ul {
   list-style: none;
 }
