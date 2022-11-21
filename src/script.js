@@ -57,7 +57,7 @@ document.querySelector("#cards").innerHTML =
     "Fase de grupos",
     "21/11",
     "segunda",
-    createGame("Grupo B", "england", "iran", "10:00", 6, 1) +
+    createGame("Grupo B", "england", "iran", "10:00", 6, 2) +
       createGame("Grupo A", "senegal", "netherlands", "13:00") +
       createGame("Grupo B", "united-states", "wales", "16:00")
   ) +
