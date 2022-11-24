@@ -75,18 +75,18 @@ document.querySelector("#cards").innerHTML =
     "23/11",
     "quarta",
     createGame("Grupo F", "morocco", "croatia", "07:00", 0, 0) +
-      createGame("Grupo E", "germany", "japan", "10:00") +
-      createGame("Grupo E", "spain", "costa-rica", "13:00") +
-      createGame("Grupo D", "belgium", "canada", "16:00")
+      createGame("Grupo E", "germany", "japan", "10:00", 1, 2) +
+      createGame("Grupo E", "spain", "costa-rica", "13:00", 7, 0) +
+      createGame("Grupo D", "belgium", "canada", "16:00", 1, 0)
   ) +
   createCard(
     "Fase de grupos",
     "24/11",
     "quinta",
-    createGame("Grupo G", "switzerland", "cameroon", "07:00") +
-      createGame("Grupo H", "uruguay", "south-corea", "10:00") +
-      createGame("Grupo H", "portugal", "ghana", "13:00") +
-      createGame("Grupo G", "brazil", "serbia", "16:00")
+    createGame("Grupo G", "switzerland", "cameroon", "07:00", 1, 0) +
+      createGame("Grupo H", "uruguay", "south-corea", "10:00", 0, 0) +
+      createGame("Grupo H", "portugal", "ghana", "13:00", 3, 2) +
+      createGame("Grupo G", "brazil", "serbia", "16:00", 2, 0)
   ) +
   createCard(
     "Fase de grupos",
