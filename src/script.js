@@ -94,71 +94,71 @@ document.querySelector("#cards").innerHTML =
     "sexta",
     createGame("Grupo B", "wales", "iran", "07:00", 0, 2) +
       createGame("Grupo A", "qatar", "senegal", "10:00", 1, 3) +
-      createGame("Grupo A", "netherlands", "ecuador", "13:00") +
-      createGame("Grupo B", "england", "united-states", "16:00")
+      createGame("Grupo A", "netherlands", "ecuador", "13:00", 1, 1) +
+      createGame("Grupo B", "england", "united-states", "16:00", 0, 0)
   ) +
   createCard(
     "Fase de grupos",
     "26/11",
     "sabado",
-    createGame("Grupo D", "tunisia", "australia", "07:00") +
-      createGame("Grupo C", "poland", "saudi-arabia", "10:00") +
-      createGame("Grupo D", "france", "denmark", "13:00") +
-      createGame("Grupo C", "argentina", "mexico", "16:00")
+    createGame("Grupo D", "tunisia", "australia", "07:00", 0, 1 ) +
+      createGame("Grupo C", "poland", "saudi-arabia", "10:00", 2, 0) +
+      createGame("Grupo D", "france", "denmark", "13:00", 2, 1) +
+      createGame("Grupo C", "argentina", "mexico", "16:00", 2, 0)
   ) +
   createCard(
     "Fase de grupos",
     "27/11",
     "domingo",
-    createGame("Grupo E", "japan", "costa-rica", "07:00") +
-      createGame("Grupo F", "belgium", "morocco", "10:00") +
-      createGame("Grupo F", "croatia", "canada", "13:00") +
-      createGame("Grupo E", "spain", "germany", "16:00")
+    createGame("Grupo E", "japan", "costa-rica", "07:00", 0, 1) +
+      createGame("Grupo F", "belgium", "morocco", "10:00", 0 ,2 ) +
+      createGame("Grupo F", "croatia", "canada", "13:00", 4 , 1) +
+      createGame("Grupo E", "spain", "germany", "16:00", 1, 1)
   ) +
   createCard(
     "Fase de grupos",
     "28/11",
     "segunda",
-    createGame("Grupo G", "cameroon", "serbia", "07:00") +
-      createGame("Grupo H", "south-corea", "ghana", "10:00") +
-      createGame("Grupo G", "brazil", "switzerland", "13:00") +
-      createGame("Grupo H", "portugal", "uruguay", "16:00")
+    createGame("Grupo G", "cameroon", "serbia", "07:00", 3, 3) +
+      createGame("Grupo H", "south-corea", "ghana", "10:00", 2, 3) +
+      createGame("Grupo G", "brazil", "switzerland", "13:00", 1, 0) +
+      createGame("Grupo H", "portugal", "uruguay", "16:00", 2, 0)
   ) +
   createCard(
     "Fase de grupos",
     "29/11",
     "terca",
-    createGame("Grupo A", "ecuador", "senegal", "07:00") +
-      createGame("Grupo A", "netherlands", "qatar", "10:00") +
-      createGame("Grupo B", "iran", "united-states", "13:00") +
-      createGame("Grupo B", "wales", "england", "16:00")
+    createGame("Grupo A", "ecuador", "senegal", "07:00", 1, 2) +
+      createGame("Grupo A", "netherlands", "qatar", "10:00", 2, 0) +
+      createGame("Grupo B", "iran", "united-states", "13:00", 0, 1) +
+      createGame("Grupo B", "wales", "england", "16:00", 0, 3)
   ) +
   createCard(
     "Fase de grupos",
     "30/11",
     "quarta",
-    createGame("Grupo D", "tunisia", "france", "07:00") +
-      createGame("Grupo D", "australia", "denmark", "10:00") +
-      createGame("Grupo C", "poland", "argentina", "13:00") +
-      createGame("Grupo C", "saudi-arabia", "mexico", "16:00")
+    createGame("Grupo D", "tunisia", "france", "07:00", 1, 0) +
+      createGame("Grupo D", "australia", "denmark", "10:00", 1, 0) +
+      createGame("Grupo C", "poland", "argentina", "13:00", 0, 2) +
+      createGame("Grupo C", "saudi-arabia", "mexico", "16:00", 1, 2)
   ) +
   createCard(
     "Fase de grupos",
     "01/12",
     "quinta",
-    createGame("Grupo F", "croatia", "belgium", "12:00") +
-      createGame("Grupo F", "canada", "morocco", "12:00") +
-      createGame("Grupo E", "japan", "spain", "16:00") +
-      createGame("Grupo E", "costa-rica", "germany", "16:00")
+    createGame("Grupo F", "croatia", "belgium", "12:00", 0, 0) +
+      createGame("Grupo F", "canada", "morocco", "12:00", 1, 2) +
+      createGame("Grupo E", "japan", "spain", "16:00", 2, 1) +
+      createGame("Grupo E", "costa-rica", "germany", "16:00", 2, 4)
   ) +
   createCard(
     "Fase de grupos",
     "02/12",
     "sexta",
-    createGame("Grupo H", "south-corea", "portugal", "12:00") +
-      createGame("Grupo H", "ghana", "uruguay", "12:00") +
-      createGame("Grupo G", "serbia", "switzerland", "16:00") +
-      createGame("Grupo G", "cameroon", "brazil", "16:00")
+    createGame("Grupo H", "south-corea", "portugal", "12:00", 2, 1) +
+      createGame("Grupo H", "ghana", "uruguay", "12:00", 0, 2) +
+      createGame("Grupo G", "serbia", "switzerland", "16:00", 2, 3) +
+      createGame("Grupo G", "cameroon", "brazil", "16:00", 1, 0)
   ) +
   createCard(
     "Oitavas de final",
