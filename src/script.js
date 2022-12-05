@@ -193,14 +193,14 @@ document.querySelector("#cards").innerHTML =
     "09/12",
     "sexta",
     createGame("", "confirmar", "confirmar", "12:00") +
-      createGame("", "confirmar", "confirmar", "16:00")
+      createGame("", "netherlands", "argentina", "16:00")
   ) +
   createCard(
     "Quartas de final",
     "10/12",
     "sábado",
     createGame("", "confirmar", "confirmar", "12:00") +
-      createGame("", "confirmar", "confirmar", "16:00")
+      createGame("", "england", "france", "16:00")
   ) +
   createCard(
     "Semifinais",
