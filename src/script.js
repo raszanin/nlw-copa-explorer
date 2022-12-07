@@ -179,14 +179,14 @@ document.querySelector("#cards").innerHTML =
     "05/12",
     "segunda",
     createGame("", "japan", "croatia", "12:00", 1, 1) +
-      createGame("", "brazil", "south-corea", "16:00")
+      createGame("", "brazil", "south-corea", "16:00",4 ,1)
   ) +
   createCard(
     "Oitavas de final",
     "06/12",
     "terca",
-    createGame("", "morocco", "spain", "12:00") +
-      createGame("", "portugal", "switzerland", "16:00")
+    createGame("", "morocco", "spain", "12:00", 0, 0) +
+      createGame("", "portugal", "switzerland", "16:00", 6 ,1)
   ) +
   createCard(
     "Quartas de final",
