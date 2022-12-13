@@ -101,7 +101,7 @@ document.querySelector("#cards").innerHTML =
     "Fase de grupos",
     "26/11",
     "sabado",
-    createGame("Grupo D", "tunisia", "australia", "07:00", 0, 1 ) +
+    createGame("Grupo D", "tunisia", "australia", "07:00", 0, 1) +
       createGame("Grupo C", "poland", "saudi-arabia", "10:00", 2, 0) +
       createGame("Grupo D", "france", "denmark", "13:00", 2, 1) +
       createGame("Grupo C", "argentina", "mexico", "16:00", 2, 0)
@@ -111,8 +111,8 @@ document.querySelector("#cards").innerHTML =
     "27/11",
     "domingo",
     createGame("Grupo E", "japan", "costa-rica", "07:00", 0, 1) +
-      createGame("Grupo F", "belgium", "morocco", "10:00", 0 ,2 ) +
-      createGame("Grupo F", "croatia", "canada", "13:00", 4 , 1) +
+      createGame("Grupo F", "belgium", "morocco", "10:00", 0, 2) +
+      createGame("Grupo F", "croatia", "canada", "13:00", 4, 1) +
       createGame("Grupo E", "spain", "germany", "16:00", 1, 1)
   ) +
   createCard(
@@ -179,40 +179,40 @@ document.querySelector("#cards").innerHTML =
     "05/12",
     "segunda",
     createGame("", "japan", "croatia", "12:00", 1, 1) +
-      createGame("", "brazil", "south-corea", "16:00",4 ,1)
+      createGame("", "brazil", "south-corea", "16:00", 4, 1)
   ) +
   createCard(
     "Oitavas de final",
     "06/12",
     "terca",
     createGame("", "morocco", "spain", "12:00", 0, 0) +
-      createGame("", "portugal", "switzerland", "16:00", 6 ,1)
+      createGame("", "portugal", "switzerland", "16:00", 6, 1)
   ) +
   createCard(
     "Quartas de final",
     "09/12",
     "sexta",
-    createGame("", "confirmar", "confirmar", "12:00") +
-      createGame("", "netherlands", "argentina", "16:00")
+    createGame("", "croatia", "brazil", "12:00", 1, 1) +
+      createGame("", "netherlands", "argentina", "16:00", 2, 2)
   ) +
   createCard(
     "Quartas de final",
     "10/12",
     "sábado",
-    createGame("", "confirmar", "confirmar", "12:00") +
-      createGame("", "england", "france", "16:00")
+    createGame("", "morocco", "portugal", "12:00", 1, 0) +
+      createGame("", "england", "france", "16:00", 1, 2)
   ) +
   createCard(
     "Semifinais",
     "13/12",
     "terca",
-    createGame("", "confirmar", "confirmar", "16:00")
+    createGame("", "argentina", "croatia", "16:00")
   ) +
   createCard(
     "Semifinais",
     "14/12",
     "quarta",
-    createGame("", "confirmar", "confirmar", "16:00")
+    createGame("", "france", "morocco", "16:00")
   ) +
   createCard(
     "Terceiro Lugar",
